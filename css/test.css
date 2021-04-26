@@ -1,0 +1,125 @@
+/* .test-bcgcolor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  height: 190px;
+  width: calc(50% - 20px);
+  margin: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.box:nth-child(1) {
+  background-color: tomato;
+  background-image: url("../images/657343_cat_512x512.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.box:nth-child(2) {
+  background-color: teal;
+  background-image: url("../images/657343_cat_512x512.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.box:nth-child(3) {
+  background-color: yellow;
+  background-image: url("../images/657343_cat_512x512.png");
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.box:nth-child(4) {
+  background-color: blue;
+  background-image: url("../images/657343_cat_512x512.png");
+}
+
+overlay {
+  min-height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba (47 48 0 8 rgba)) url();
+  background-color: ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.test-button {
+  display: inline-flex;
+  padding: 10px 20px;
+  background-color: teal;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.test-button:hover,
+.test-button:focus {
+  background-color: pink;
+}
+
+.test-button::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: red;
+  background-image: url(../images/png-clipart-lazy-cat-yellow-cartoon.png);
+  background-size: contain;
+}
+
+.test-button > .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: red;
+  background-image: url(../images/png-clipart-lazy-cat-yellow-cartoon.png);
+  background-size: contain;
+}
+
+/* Общие стили для иконок */
+.feature-list > .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: plum;
+}
+
+/* Делаем отдельный класс под картинку*/
+.feature-list > .icon-delivery::before {
+  background-image: url();
+}
+
+.feature-list > .item:nth-child(1)::before {
+  background-image: url();
+}
+/* Иконка соцсетей */
+.link-test {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-image: url(../images/657343_cat_512x512.png);
+  background-color: plum;
+  border-radius: 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link-test:hover {
+  background-color: green;
+} */
