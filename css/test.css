@@ -122,4 +122,270 @@ overlay {
 
 .link-test:hover {
   background-color: green;
+}
+*/
+
+
+/* Форма */
+
+.form {
+  width: 600px;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form-field {
+  /* outline: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: 1px solid #2a2a2a;
+  font-size: 20px;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+}
+
+.form-field input::placeholder {
+  color: #ccc;
+  text-align: right;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+.group-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.topic-options {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.topic-options li {
+  display: flex;
+  align-items: center;
+}
+
+.topic-options input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+}
+
+.topic-options label {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.experience-options {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.experience-options li {
+  display: flex;
+  align-items: center;
+}
+
+.experience-options input[type="radio"] {
+  width: 40px;
+  height: 40px;
+}
+
+.experience-options label {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.form-field .date {
+  border-color: violet;
+  border-width: 5px;
+  border-radius: 4px;
+  padding: 20px 40px;
+  font-size: 40px;
+  color: #2196f3;
+  background-color: #ccc;
+}
+
+.comment {
+  padding: 8px;
+}
+
+/* Форма */
+
+.form {
+  width: 600px;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form-field {
+  /* outline: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 3px;
+  border: 1px solid #2a2a2a;
+  font-size: 20px;
+}
+
+.form-field label {
+  margin-bottom: 5px;
+}
+
+.form-field input::placeholder {
+  color: #ccc;
+  text-align: right;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+.group-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.topic-options {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.topic-options li {
+  display: flex;
+  align-items: center;
+}
+
+.topic-options input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+}
+
+.topic-options label {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.experience-options {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.experience-options li {
+  display: flex;
+  align-items: center;
+}
+
+.experience-options input[type="radio"] {
+  width: 40px;
+  height: 40px;
+}
+
+.experience-options label {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.form-field .date {
+  border-color: violet;
+  border-width: 5px;
+  border-radius: 4px;
+  padding: 20px 40px;
+  font-size: 40px;
+  color: #2196f3;
+  background-color: #ccc;
+}
+
+.comment {
+  padding: 8px;
+}
+
+.form {
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+}
+
+.form-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  background-color: teal;
+  color: #fff;
+
+  transition: transform 250ms linear;
+}
+
+.form-input {
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid #2a2a2a;
+}
+
+.form-input:focus + .form-label, 
+/* выбрать form-label, который идет сразу за form-input, когда у того не показан placeholder */
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-50px);
+  color: #2196f3;
+}
+
+/* .form-input:placeholder-shown {
 } */
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+
+  transform: translateY(-50%);
+
+  width: 20px;
+  height: 20px;
+  background-color: plum;
+}
+
+.form-input:focus ~ .form-icon {
+  background-color: rosybrown;
+}
+
+/* Современное */
+/* .form-field:focus-within > .icon{
+  background-color: seagreen;
+} 
+.form-input:not(:placeholder-shown) + .form-label {
+  transform: translateY(-50px);
+  color: #2196f3;
+}
+*/
